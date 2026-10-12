@@ -8,7 +8,7 @@ WITH ranked AS (
   FROM staging.stg_orders
 ),
 first_orders AS (
-  SELECT * FROM ranked WHERE rn = 1
+  SELECT * FROM ranked WHERE rn = 1 AND purchase_date >= DATE '2017-01-01' AND purchase_date <= DATE '2018-08-31'
 ),
 repeats AS (
   SELECT f.customer_unique_id,

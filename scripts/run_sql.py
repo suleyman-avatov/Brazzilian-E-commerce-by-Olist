@@ -9,3 +9,4 @@ for stmt in [s.strip() for s in sql.split(';') if s.strip()]:
     if res.description:
         print(res.fetchdf().to_string(index=False))
         print()
+    

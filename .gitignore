@@ -1,9 +1,24 @@
 data/*.csv
+data/*.xlsx
+dashboard/data/*.csv
+dashboard/data/*.xlsx
+
 
 .venv/
 __pycache__/
+*.pyc
 .ipynb_checkpoints/
-.DS_Store
+*.egg-info/
 
 *.duckdb
 *.duckdb.wal
+*.db
+
+*.twbr
+~*
+
+.DS_Store
+Thumbs.db
+
+*.log
+*.tmp

@@ -1,2 +1,6 @@
-duckdb
-pandas
+duckdb>=0.9.0
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+statsmodels>=0.14.0
+matplotlib>=3.7.0
